@@ -11,7 +11,7 @@ ReactDOM.render(
 );
 
 if (module.hot) {
-  module.hot.accept(() => {
+  module.hot.accept('./components/main', () => {
     const MainRoot = require('./components/main').default;
     ReactDOM.render(
       <AppContainer>
