@@ -5,7 +5,7 @@ Tiny React project using these technologies:
 * webpack
 * react-hot-loader 
 
-## Installtion
+## Installation
 
 ```
 npm install
