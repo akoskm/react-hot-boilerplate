@@ -1,4 +1,4 @@
-import Main from './components/main';
+import Main from './components/Main';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
@@ -11,8 +11,8 @@ ReactDOM.render(
 );
 
 if (module.hot) {
-  module.hot.accept('./components/main', () => {
-    const MainRoot = require('./components/main').default;
+  module.hot.accept('./components/Main', () => {
+    const MainRoot = require('./components/Main').default;
     ReactDOM.render(
       <AppContainer>
         <MainRoot />
